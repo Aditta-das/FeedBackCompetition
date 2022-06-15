@@ -1,0 +1,554 @@
+2022-06-15 23:11:56,151 INFO    MainThread:13477 [internal.py:wandb_internal():92] W&B internal server running at pid: 13477, started at: 2022-06-15 23:11:56.149324
+2022-06-15 23:11:56,159 INFO    WriterThread:13477 [datastore.py:open_for_write():77] open: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/run-2hbiw7am.wandb
+2022-06-15 23:11:56,168 DEBUG   SenderThread:13477 [sender.py:send():235] send: header
+2022-06-15 23:11:56,169 DEBUG   SenderThread:13477 [sender.py:send():235] send: run
+2022-06-15 23:11:57,015 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: check_version
+2022-06-15 23:11:57,022 INFO    SenderThread:13477 [dir_watcher.py:__init__():169] watching files in: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files
+2022-06-15 23:11:57,022 INFO    SenderThread:13477 [sender.py:_start_run_threads():812] run started: 2hbiw7am with start time 1655313112
+2022-06-15 23:11:57,022 DEBUG   SenderThread:13477 [sender.py:send():235] send: summary
+2022-06-15 23:11:57,124 INFO    SenderThread:13477 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-06-15 23:11:57,124 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: check_version
+2022-06-15 23:11:58,034 INFO    Thread-7  :13477 [dir_watcher.py:_on_file_created():217] file/dir created: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/wandb-summary.json
+2022-06-15 23:12:02,028 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: run_start
+2022-06-15 23:12:02,031 DEBUG   HandlerThread:13477 [meta.py:__init__():37] meta init
+2022-06-15 23:12:02,031 DEBUG   HandlerThread:13477 [meta.py:__init__():51] meta init done
+2022-06-15 23:12:02,031 DEBUG   HandlerThread:13477 [meta.py:probe():211] probe
+2022-06-15 23:12:02,033 DEBUG   HandlerThread:13477 [git.py:repo():33] git repository is invalid
+2022-06-15 23:12:02,034 DEBUG   HandlerThread:13477 [meta.py:_save_pip():55] save pip
+2022-06-15 23:12:02,136 DEBUG   HandlerThread:13477 [meta.py:_save_pip():69] save pip done
+2022-06-15 23:12:02,141 DEBUG   HandlerThread:13477 [meta.py:probe():249] probe done
+2022-06-15 23:12:02,501 DEBUG   SenderThread:13477 [sender.py:send():235] send: files
+2022-06-15 23:12:02,501 INFO    SenderThread:13477 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-06-15 23:12:02,515 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-15 23:12:02,515 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: stop_status
+2022-06-15 23:12:02,555 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-15 23:12:03,037 INFO    Thread-7  :13477 [dir_watcher.py:_on_file_created():217] file/dir created: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/requirements.txt
+2022-06-15 23:12:03,038 INFO    Thread-7  :13477 [dir_watcher.py:_on_file_created():217] file/dir created: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/wandb-metadata.json
+2022-06-15 23:12:03,039 INFO    Thread-7  :13477 [dir_watcher.py:_on_file_created():217] file/dir created: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/output.log
+2022-06-15 23:12:08,043 INFO    Thread-7  :13477 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/output.log
+2022-06-15 23:12:09,447 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:09,914 DEBUG   SenderThread:13477 [sender.py:send():235] send: telemetry
+2022-06-15 23:12:09,916 DEBUG   SenderThread:13477 [sender.py:send():235] send: telemetry
+2022-06-15 23:12:09,917 DEBUG   SenderThread:13477 [sender.py:send():235] send: exit
+2022-06-15 23:12:09,918 INFO    SenderThread:13477 [sender.py:send_exit():371] handling exit code: 0
+2022-06-15 23:12:09,924 INFO    SenderThread:13477 [sender.py:send_exit():373] handling runtime: 7
+2022-06-15 23:12:10,036 INFO    SenderThread:13477 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-06-15 23:12:10,036 INFO    SenderThread:13477 [sender.py:send_exit():379] send defer
+2022-06-15 23:12:10,036 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:10,037 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:10,037 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-15 23:12:10,038 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:10,038 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-15 23:12:10,038 INFO    SenderThread:13477 [sender.py:transition_state():392] send defer: 1
+2022-06-15 23:12:10,038 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:10,039 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-15 23:12:10,044 INFO    Thread-7  :13477 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/wandb-summary.json
+2022-06-15 23:12:10,044 INFO    Thread-7  :13477 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/output.log
+2022-06-15 23:12:10,065 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:10,066 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-06-15 23:12:10,066 INFO    SenderThread:13477 [sender.py:transition_state():392] send defer: 2
+2022-06-15 23:12:10,066 DEBUG   SenderThread:13477 [sender.py:send():235] send: stats
+2022-06-15 23:12:10,067 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:10,067 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-15 23:12:10,067 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:10,067 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-06-15 23:12:10,067 INFO    SenderThread:13477 [sender.py:transition_state():392] send defer: 3
+2022-06-15 23:12:10,068 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:10,068 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-15 23:12:10,068 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:10,068 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-06-15 23:12:10,068 INFO    SenderThread:13477 [sender.py:transition_state():392] send defer: 4
+2022-06-15 23:12:10,068 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:10,069 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-15 23:12:10,069 DEBUG   SenderThread:13477 [sender.py:send():235] send: summary
+2022-06-15 23:12:10,140 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:10,172 INFO    SenderThread:13477 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-06-15 23:12:10,173 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:10,173 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-06-15 23:12:10,174 INFO    SenderThread:13477 [sender.py:transition_state():392] send defer: 5
+2022-06-15 23:12:10,174 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:10,176 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:10,176 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-15 23:12:10,177 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:10,178 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-06-15 23:12:10,281 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:10,686 INFO    Thread-11 :13477 [upload_job.py:push():137] Uploaded file /tmp/tmpcpqq8um8wandb/v8gjjxlu-wandb-metadata.json
+2022-06-15 23:12:11,046 INFO    Thread-7  :13477 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/wandb-summary.json
+2022-06-15 23:12:11,047 INFO    Thread-7  :13477 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/config.yaml
+2022-06-15 23:12:11,052 INFO    SenderThread:13477 [sender.py:transition_state():392] send defer: 6
+2022-06-15 23:12:11,053 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:11,054 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:11,054 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-15 23:12:11,055 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:11,055 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-06-15 23:12:11,055 INFO    SenderThread:13477 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-06-15 23:12:11,157 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:12,050 INFO    SenderThread:13477 [dir_watcher.py:finish():313] scan: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files
+2022-06-15 23:12:12,051 INFO    SenderThread:13477 [dir_watcher.py:finish():327] scan save: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/config.yaml config.yaml
+2022-06-15 23:12:12,052 INFO    SenderThread:13477 [dir_watcher.py:finish():327] scan save: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/wandb-summary.json wandb-summary.json
+2022-06-15 23:12:12,065 INFO    SenderThread:13477 [dir_watcher.py:finish():327] scan save: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/requirements.txt requirements.txt
+2022-06-15 23:12:12,069 INFO    SenderThread:13477 [dir_watcher.py:finish():327] scan save: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/wandb-metadata.json wandb-metadata.json
+2022-06-15 23:12:12,080 INFO    SenderThread:13477 [dir_watcher.py:finish():327] scan save: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/output.log output.log
+2022-06-15 23:12:12,088 INFO    SenderThread:13477 [sender.py:transition_state():392] send defer: 7
+2022-06-15 23:12:12,089 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:12,091 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:12,098 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-15 23:12:12,098 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:12,099 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-06-15 23:12:12,099 INFO    SenderThread:13477 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-15 23:12:12,199 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:12,200 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:12,303 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:12,303 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:12,407 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:12,408 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:12,512 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:12,513 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:12,617 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:12,618 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:12,721 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:12,721 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:12,825 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:12,826 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:12,931 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:12,932 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,038 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,039 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,145 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,146 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,251 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,252 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,357 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,358 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,463 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,463 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,567 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,567 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,671 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,672 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,775 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,776 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,880 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,881 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:13,984 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:13,984 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:14,088 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:14,088 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:14,191 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:14,191 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:14,293 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:14,293 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:14,395 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:14,396 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:14,499 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:14,499 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:14,604 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:14,604 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:14,706 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:14,706 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:14,809 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:14,810 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:14,916 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:14,916 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,018 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,019 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,121 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,122 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,224 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,225 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,328 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,328 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,432 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,433 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,538 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,539 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,641 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,641 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,744 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,745 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,850 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,851 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:15,958 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:15,959 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:16,064 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:16,065 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:16,168 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:16,169 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:16,274 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:16,275 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:16,381 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:16,382 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:16,487 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:16,488 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:16,596 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:16,597 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:16,703 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:16,704 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:16,809 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:16,810 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:16,915 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:16,916 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,021 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,022 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,128 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,129 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,233 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,234 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,338 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,339 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,444 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,445 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,549 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,550 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,656 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,657 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,762 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,763 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,868 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,869 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:17,975 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:17,975 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:18,081 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:18,082 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:18,187 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:18,188 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:18,293 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:18,293 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:18,398 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:18,399 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:18,504 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:18,505 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:18,610 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:18,611 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:18,714 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:18,715 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:18,818 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:18,819 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:18,925 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:18,925 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,029 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,030 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,136 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,137 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,242 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,243 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,348 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,349 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,454 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,455 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,560 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,561 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,666 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,666 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,769 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,770 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,875 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,876 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:19,981 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:19,982 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:20,087 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:20,087 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:20,190 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:20,192 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:20,297 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:20,298 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:20,403 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:20,404 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:20,509 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:20,510 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:20,615 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:20,617 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:20,722 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:20,723 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:20,828 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:20,829 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:20,934 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:20,935 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,040 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,041 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,147 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,148 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,253 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,254 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,359 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,360 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,466 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,467 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,572 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,573 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,678 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,679 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,783 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,783 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,884 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,885 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:21,986 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:21,987 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:22,089 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:22,089 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:22,191 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:22,192 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:22,296 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:22,297 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:22,399 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:22,399 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:22,502 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:22,502 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:22,606 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:22,606 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:22,710 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:22,710 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:22,813 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:22,814 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:22,916 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:22,916 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,018 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,018 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,120 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,121 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,224 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,225 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,330 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,331 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,436 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,437 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,542 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,543 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,648 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,649 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,751 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,752 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,855 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,856 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:23,962 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:23,963 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:24,067 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:24,068 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:24,172 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:24,173 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:24,279 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:24,280 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:24,386 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:24,387 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:24,495 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:24,496 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:24,601 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:24,602 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:24,708 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:24,709 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:24,814 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:24,815 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:24,919 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:24,920 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,024 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,027 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,133 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,134 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,172 INFO    Thread-12 :13477 [upload_job.py:push():137] Uploaded file /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/config.yaml
+2022-06-15 23:12:25,240 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,241 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,345 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,346 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,452 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,452 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,558 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,559 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,663 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,664 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,770 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,771 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,875 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,876 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:25,981 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:25,982 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:26,086 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:26,087 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:26,192 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:26,193 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:26,298 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:26,299 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:26,404 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:26,405 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:26,510 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:26,511 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:26,616 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:26,617 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:26,723 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:26,724 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:26,829 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:26,830 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:26,935 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:26,936 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,041 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,042 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,147 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,148 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,254 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,255 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,360 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,361 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,466 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,467 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,572 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,573 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,678 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,679 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,783 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,784 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,890 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,891 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:27,996 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:27,997 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:28,102 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:28,103 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:28,209 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:28,210 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:28,316 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:28,317 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:28,424 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:28,426 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:28,531 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:28,532 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:28,637 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:28,638 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:28,743 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:28,744 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:28,849 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:28,850 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:28,955 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:28,956 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:29,063 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:29,068 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:29,175 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:29,176 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:29,281 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:29,282 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:29,387 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:29,388 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:29,493 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:29,493 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:29,597 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:29,598 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:29,703 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:29,704 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:29,809 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:29,810 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:29,915 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:29,916 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,021 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,021 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,127 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,128 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,233 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,234 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,339 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,339 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,444 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,445 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,550 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,551 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,656 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,657 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,762 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,763 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,867 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,868 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:30,973 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:30,974 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:31,080 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:31,081 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:31,186 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:31,187 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:31,292 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:31,293 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:31,398 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:31,399 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:31,504 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:31,505 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:31,610 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:31,611 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:31,717 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:31,718 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:31,823 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:31,824 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:31,928 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:31,928 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,031 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,032 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,135 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,135 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,239 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,240 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,344 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,344 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,447 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,448 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,554 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,555 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,660 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,661 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,765 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,766 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,868 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,868 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:32,971 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:32,972 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:33,078 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:33,079 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:33,184 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:33,185 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:33,291 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:33,292 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:33,370 INFO    Thread-14 :13477 [upload_job.py:push():137] Uploaded file /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/requirements.txt
+2022-06-15 23:12:33,398 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:33,399 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:33,427 INFO    Thread-13 :13477 [upload_job.py:push():137] Uploaded file /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/wandb-summary.json
+2022-06-15 23:12:33,503 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:33,503 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:33,607 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:33,609 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:33,653 INFO    Thread-15 :13477 [upload_job.py:push():137] Uploaded file /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/files/output.log
+2022-06-15 23:12:33,713 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:33,714 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:33,819 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:33,820 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:33,856 INFO    Thread-6  :13477 [sender.py:transition_state():392] send defer: 8
+2022-06-15 23:12:33,859 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:33,859 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-15 23:12:33,860 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:33,861 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-06-15 23:12:33,925 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:34,855 INFO    SenderThread:13477 [sender.py:transition_state():392] send defer: 9
+2022-06-15 23:12:34,856 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:34,862 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:34,862 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-15 23:12:34,863 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:34,864 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-06-15 23:12:34,864 INFO    SenderThread:13477 [sender.py:transition_state():392] send defer: 10
+2022-06-15 23:12:34,868 DEBUG   SenderThread:13477 [sender.py:send():235] send: final
+2022-06-15 23:12:34,870 DEBUG   SenderThread:13477 [sender.py:send():235] send: footer
+2022-06-15 23:12:34,870 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: defer
+2022-06-15 23:12:34,871 INFO    HandlerThread:13477 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-15 23:12:34,873 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: defer
+2022-06-15 23:12:34,873 INFO    SenderThread:13477 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-06-15 23:12:34,963 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:34,964 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:34,965 INFO    SenderThread:13477 [file_pusher.py:join():150] waiting for file pusher
+2022-06-15 23:12:40,064 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:45,166 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:50,267 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-15 23:12:52,387 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:52,389 INFO    SenderThread:13477 [file_pusher.py:join():150] waiting for file pusher
+2022-06-15 23:12:52,390 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:52,392 INFO    SenderThread:13477 [file_pusher.py:join():150] waiting for file pusher
+2022-06-15 23:12:52,393 DEBUG   SenderThread:13477 [sender.py:send_request():249] send_request: poll_exit
+2022-06-15 23:12:52,395 INFO    SenderThread:13477 [file_pusher.py:join():150] waiting for file pusher
+2022-06-15 23:12:52,501 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-15 23:12:52,504 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-15 23:12:52,507 DEBUG   HandlerThread:13477 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-15 23:12:52,508 INFO    HandlerThread:13477 [handler.py:finish():778] shutting down handler
+2022-06-15 23:12:52,873 INFO    WriterThread:13477 [datastore.py:close():281] close: /media/aditta/UBUNTU/feedback-prize-effectiveness/code/wandb/run-20220615_231152-2hbiw7am/run-2hbiw7am.wandb
+2022-06-15 23:12:53,397 INFO    SenderThread:13477 [sender.py:finish():1078] shutting down sender
+2022-06-15 23:12:53,397 INFO    SenderThread:13477 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-15 23:12:53,398 INFO    SenderThread:13477 [file_pusher.py:join():150] waiting for file pusher
+2022-06-15 23:12:53,404 INFO    MainThread:13477 [internal.py:handle_exit():82] Internal process exited

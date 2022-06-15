@@ -1,0 +1,13 @@
+       discourse_id      essay_id                                     discourse_text        discourse_type  discourse_effectiveness
+0      0013cc385424  007ACE74B050  Hi, i'm Isaac, i'm going to be writing about h...                  Lead                        0
+1      9704a709b505  007ACE74B050  On my perspective, I think that the face is a ...              Position                        0
+2      c22adee811b6  007ACE74B050  I think that the face is a natural landform be...                 Claim                        0
+3      a10d361e54e4  007ACE74B050  If life was on Mars, we would know by now. The...              Evidence                        0
+4      db3e453ec4e2  007ACE74B050  People thought that the face was formed by ali...          Counterclaim                        0
+...             ...           ...                                                ...                   ...                      ...
+36760  9f63b687e76a  FFA381E58FC6  For many people they don't like only asking on...                 Claim                        0
+36761  9d5bd7d86212  FFA381E58FC6  also people have different views and opinions ...                 Claim                        0
+36762  f1b78becd573  FFA381E58FC6  Advice is something that can impact a persons ...              Position                        0
+36763  cc184624ca8e  FFA381E58FC6  someone can use everything that many people sa...              Evidence                        2
+36764  c8a973681feb  FFA381E58FC6  In conclusion asking for an opinion can be ben...  Concluding Statement                        2
+[36765 rows x 5 columns]

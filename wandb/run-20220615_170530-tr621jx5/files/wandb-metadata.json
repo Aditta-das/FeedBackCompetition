@@ -1,0 +1,16 @@
+{
+    "os": "Linux-5.13.0-48-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-06-15T11:05:33.889607",
+    "startedAt": "2022-06-15T11:05:30.873069",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "wandbViz.py",
+    "codePath": "wandbViz.py",
+    "host": "aditta-Inspiron-14-3467",
+    "username": "aditta",
+    "executable": "/usr/bin/python3"
+}

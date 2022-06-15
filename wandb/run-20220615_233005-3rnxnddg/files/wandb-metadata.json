@@ -1,0 +1,25 @@
+{
+    "os": "Linux-5.13.0-48-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-06-15T17:30:32.295549",
+    "startedAt": "2022-06-15T17:30:05.353096",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--fold",
+        "5",
+        "--epochs",
+        "2",
+        "--path",
+        "../save",
+        "--name",
+        "model.bin"
+    ],
+    "state": "running",
+    "program": "trainer.py",
+    "codePath": "trainer.py",
+    "host": "aditta-Inspiron-14-3467",
+    "username": "aditta",
+    "executable": "/usr/bin/python3"
+}
