@@ -11,7 +11,7 @@ class Config:
     N_FOLD = 5
     TOKENIZER = BertTokenizer.from_pretrained('bert-large-uncased', do_lower_case=True)
     CLASSES = 3
-    MAX_LEN = 100
+    MAX_LEN = 200
     TRAIN_CSV = "../train.csv"
     TEST_CSV = "../test.csv"
     API = "9d02c7851f62695a82c1e14023cd456fc37d629b"
